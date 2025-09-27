@@ -1,3 +1,4 @@
+"""Animals."""
 animals = ['eagle', 'sparrow', 'bat']
 for animal in animals:
     print(animal)

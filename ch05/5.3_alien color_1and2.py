@@ -1,3 +1,4 @@
+"""Alien."""
 alien_color = 'green'
 if alien_color == 'green':
     print("The player scored 5 points\n")

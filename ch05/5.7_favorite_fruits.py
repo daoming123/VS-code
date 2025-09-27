@@ -1,4 +1,5 @@
-favorite_fruits =['Apple', 'Banana', 'Strawberry']
+"""Favorite_fruits."""
+favorite_fruits = ['Apple', 'Banana', 'Strawberry']
 if 'Apple' in favorite_fruits:
     print("you are really like Apple!")
 if 'Banana' in favorite_fruits:
@@ -8,4 +9,4 @@ if 'Strawberry' in favorite_fruits:
 if 'pears' in favorite_fruits:
     print("you are really like pears!")
 if 'grapes' in favorite_fruits:
-    print("you are really like grapes!")          
+    print("you are really like grapes!")

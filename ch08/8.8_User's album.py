@@ -20,4 +20,3 @@ while True:
 
     user_input = make_album(favorite_singer, Album_name)
     print(user_input)
-

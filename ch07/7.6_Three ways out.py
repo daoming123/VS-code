@@ -1,3 +1,4 @@
+"""user_input."""
 user_input = input("Please enter the pizza toppings you would like to add. ")
 while user_input != "quit":
     print(f"This topping has been added to pizza {user_input}\n")
@@ -13,12 +14,11 @@ while active:
         active = False
     else:
         print(f"This {user_input} topping has been added to pizza \n")
-    
+
 while True:
     user_input = input("Please enter the pizza toppings you would like to add"
     "(type 'quit' to stop): ")
     if user_input == 'quit':
         break
-    else: 
+    else:
         print(f"This {user_input} topping has been added to pizza \n")
-    

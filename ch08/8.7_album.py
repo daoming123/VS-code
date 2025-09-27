@@ -1,16 +1,17 @@
-def make_album(Artist_name, Album_title, Number_of_songs=None):
+def make_album(artist_name, album_title, number_of_songs=None):
     """返回包含专辑信息的字典"""
     album = {
-            'artist': Artist_name.title(),
-            'album': Album_title.title()
+            'artist': artist_name.title(),
+            'album': album_title.title()
              }
-    if Number_of_songs:
-        album['Number_of_songs'] = Number_of_songs
+    if number_of_songs:
+        album['Number_of_songs'] = number_of_songs
     return album
 
-album1 = make_album('Taylor Swift','1998', Number_of_songs=5)
-album2 = make_album('Jay Chou','Fantasy')
-album3 = make_album('Adele','say_Hello')
+album1 = make_album('Taylor Swift', '1998', number_of_songs=5)
+album2 = make_album('Jay Chou', 'Fantasy')
+album3 = make_album('Adele', 'say_Hello')
+
 print(album1)
 print(album2)
 print(album3)

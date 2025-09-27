@@ -1,4 +1,5 @@
-names = ['Tim','Sara', 'Luna', 'Mary']
+"""Greeting."""
+names = ['Tim', 'Sara', 'Luna', 'Mary']
 message1 = f"hello,how are you,{names[0].upper()}"
 print(message1)
 message2 = f"hello,how are you,{names[1].lower()}"

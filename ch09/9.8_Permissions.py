@@ -14,7 +14,7 @@ class Privileges():
         self.privileges = ["can add post", "can deletepost", "can ban user"]
 
     def show_privileges(self):
-        print(f"Administrator permissions include:")
+        print("Administrator permissions include:")
         for privilege in self.privileges:
             print(f" - {privilege}")
 

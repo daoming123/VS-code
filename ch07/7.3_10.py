@@ -1,3 +1,4 @@
+"""number."""
 number = input("Enter a number, and I'll tell you if it's evenMultiples of 10 or no. ")
 number = int(number)
 if number % 10 == 0:

@@ -1,3 +1,4 @@
+"""Pizzas."""
 pizzas = ['Margherita Pizza', 'Hawaiian Pizza', 'Mushroom Pizza']
 for pizza in pizzas:
     print(pizza)
@@ -10,7 +11,7 @@ my_pizzas.append('mango pizza')
 friend_pizzas.append('lemon pizza')
 print("My favorite pizzas are:")
 for pizza in my_pizzas:
-  print(pizza.title())
+    print(pizza.title())
 print("My friend favorite pizzas are:")
 for pizza in friend_pizzas:
- print(pizza.title())
+    print(pizza.title())
