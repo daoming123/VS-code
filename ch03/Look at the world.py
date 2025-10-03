@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print("Here is the original list:")
 country = ['Tokyo', 'Nepal', 'Himalayas', 'United States', 'United Kingdom']
 print(country)
@@ -17,4 +18,25 @@ print("\nUsing sort() to change the list to A-Z:")
 country.sort
 print(country)
 country.sort(reverse=True)
+=======
+print("Here is the original list:")
+country = ['Tokyo', 'Nepal', 'Himalayas', 'United States', 'United Kingdom']
+print(country)
+print("\nHere is the sorted list:")
+print(sorted(country))
+print("\nHere is the original list again:")
+print(country)
+print("\nUsing reverse=True to change the list")
+print(sorted(country,reverse=True))
+print(country)
+print("\nUsing reverse=True to change the list again")
+country.reverse()
+print(country)
+country.reverse()
+print(country)
+print("\nUsing sort() to change the list to A-Z:")
+country.sort
+print(country)
+country.sort(reverse=True)
+>>>>>>> ddb9f76865614855e9dbead36ef2c8d652b156f5
 print(country)

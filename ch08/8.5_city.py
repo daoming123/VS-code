@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def describe_city(city_name, The_country='China'):
     """一座城市的名字以及该城市所属的国家"""
@@ -6,3 +7,13 @@ def describe_city(city_name, The_country='China'):
     describe_city('Jiang_Xi')
     describe_city('Bei_Jing')
     describe_city('Tokyo', The_country='Japan')
+=======
+
+def describe_city(city_name, The_country='China'):
+    """一座城市的名字以及该城市所属的国家"""
+    print(f"{city_name} is in {The_country}")
+
+    describe_city('Jiang_Xi')
+    describe_city('Bei_Jing')
+    describe_city('Tokyo', The_country='Japan')
+>>>>>>> ddb9f76865614855e9dbead36ef2c8d652b156f5
